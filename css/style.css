@@ -138,11 +138,7 @@ header nav a.active {
     color: #f30909;
 }
 
-#home .divider {
-    width: 250px;
-    margin: 0 auto;
-    border-top: 5px solid #bb1509;
-}
+
 
 #home .social {
     margin-top: 80px;
@@ -185,11 +181,7 @@ header nav a.active {
     color: #d48b8b;
 }
 
-#home .divider {
-    width: 250px;
-    margin: 0 auto;
-    border-top: 5px solid #f51707;
-}
+
 
 #home .social {
     margin-top: 80px;
@@ -221,9 +213,6 @@ header nav a.active {
 
 
 
-p {
-    text-align: center;
-}
 
 section h2 {
     text-align: center;
@@ -258,6 +247,15 @@ section h2 {
     width: 33%;
     padding: 1%;
     background-color: var(--colorFondo);
+}
+#fibra.box{
+    display: inline-block;
+    margin-top: 10%;
+    padding-left: 3%;
+    padding-bottom: 10px;
+    background-color: #bb1509;
+    box-sizing: content-box;
+    border-radius: 15%;
 }
 
 
@@ -335,8 +333,12 @@ p{
     background-color: red;
 align-items: center;
 margin-right: 50%;
+margin-left: 35%;
 border: solid 5px black;
-border-radius: 2%;
+border-radius: 12%;
+padding-left: 1%;
+padding-top: 2%;
+padding-bottom: 2%;
 font-weight: bold;}
 .box ,img{
     border: solid 3px black;
@@ -350,5 +352,26 @@ body{
     color: #bb1509;
 }
 h3{
-    margin-left: 20%;
+    margin-left: 23%;
+    margin-right: 30%;
+    padding-right: 10px;
+    padding-left: 8%;
+    padding-top: 7px;
+    padding-bottom: 1%;
+    border: solid 2px white;
+    border-radius: 25%;
+    background-color: #070100;
+    color: white;
+    border: solid 4px red;
+}
+h2{
+    background-color: red;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7%;
+    color: rgb(8, 8, 8);
+    border-radius: 25%;
+    border:  solid 7px black;
 }
